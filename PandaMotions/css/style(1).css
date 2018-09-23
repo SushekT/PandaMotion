@@ -1,0 +1,135 @@
+body{
+	width: 100% !important;
+}
+
+#wrapper{
+	width:960px;
+	min-height:500px;
+	margin:auto auto;
+
+.middle .row{
+font-family: 'Raleway', sans-serif;
+position: relative;
+top:10px;
+}
+.column1{
+	width: 900px;
+}
+.column{
+	display: block;
+	color: black;
+	font-size: 20px;
+}
+}
+.logo{
+	position: relative;
+	top:50%;
+
+
+}
+hr{
+	position: absolute;
+	top: 60px;
+	padding-bottom: 300px;
+	width: 100%;
+	color: black;
+	
+}
+.navbar{
+	position: fixed;
+	top:0;
+	width: 100%;
+	background:white;
+	height: 70px;
+	    font-family: 'Roboto', sans-serif;
+   	
+}
+}
+.navbar-nav li a{
+	color: black;
+	    font-family: 'Roboto', sans-serif;
+}
+h2{
+	padding-top: 200px;
+	padding-right:200px;
+	
+}
+
+/*------------------Social Media Site logo----------------------*/
+.social ul{
+	
+	display: flex;
+	position: relative;
+	top: 30px;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.social ul li{
+list-style: none;
+}
+.social ul li a{
+width: 40px;
+height: 40px;
+background: #fff;
+text-align: center;
+line-height: 30px;
+ font-size: 15px;
+ margin: 0 10px;
+ display: block;
+ border-radius: 50%;
+ position: relative;
+overflow: hidden;
+border: 3px solid #fff;
+z-index: 1;
+}
+.social ul li a .fa{
+position: relative;
+color: black;
+transition: .5s;
+z-index: 3;
+}
+.social ul li a:hover .fa{
+color: white;
+transform: rotateY(360deg);
+
+}
+
+.social ul li a:before
+{
+content: '';
+position: absolute;
+top:100%;
+left: 0;
+width: 100%;
+height: 100%;
+background:;
+transition: .5s;
+z-index: 2;
+}
+.social ul li a:hover:before{
+	top: 0;
+}
+
+.social ul li:nth-child(1) a:before
+{
+	background: #3b5999;
+}
+.social ul li:nth-child(2) a:before
+{
+	background: #dd4b39;
+}
+.social ul li:nth-child(3) a:before
+{
+	background: #e4405f;
+}
+.social ul li:nth-child(4) a:before
+{
+	background: #55acee;
+}
+.red{ 
+	color:black !important;
+}
+/**------------------------------------------**/
+
+/**--------------------------footer----------**/
+

@@ -1,0 +1,46 @@
+
+body{
+	background-color: white;
+}
+.text{
+	padding-left: 45%;
+	padding-top:5%;
+	padding-bottom:0%;
+	font-size: 32px;
+}
+.wrapper{
+	padding-top: 0%;
+	width:1100px;
+	height:600px;
+
+}
+
+.img-single img{
+	width: 350px;
+	
+	height:350px;
+margin: 5px 5px;
+	float: left;
+}
+
+.img-single1 img{
+	width: 350px;
+	
+	height:175px;
+margin: 5px 5px;
+	float: left;
+}
+.img-single2 img{
+	position: relative;
+	top:-175px;
+	width: 350px;
+	
+	height:350px;
+margin: 5px 5px;
+	float: left;
+
+}
+.gallery-box {
+	padding-left: 10%;
+	padding-top: 10%;
+}

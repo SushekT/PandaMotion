@@ -1,0 +1,15 @@
+
+#slider h1{
+	position: relative;
+	text-align: center;
+	 font-family: 'Roboto', sans-serif;
+	 font-size: 25px;
+	}
+
+	#slider figure img{
+		position: relative;
+		left: 145px;
+		text-align: center;
+		height: 80%;
+		width: 80%;
+	}

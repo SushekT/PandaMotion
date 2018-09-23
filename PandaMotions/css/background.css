@@ -1,0 +1,90 @@
+body, html{
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+}
+
+.pimg1{
+  position:relative;
+  opacity:5;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+}
+ .pimg1{
+  background-image:url('../image/top-para.jpg');
+  min-height:100%;
+}
+
+.pimg1 img{
+  opacity: 0;
+}
+
+.section{
+  text-align:center;
+  padding:50px 80px;
+}
+
+.section-light{
+  background-color:#f4f4f4;
+  color:#666;
+}
+
+.section-dark{
+  background-color:#282e34;
+  color:#ddd;
+}
+
+.ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#222;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.ptext .border a{
+  background-color:#EEEEEE;
+  color: #616161;
+  padding:20px;
+  letter-spacing: 5px;
+}
+
+.ptext .border.trans{
+  background-color:transparent;
+}
+
+@media(max-width:568px){
+  .pimg1{
+    background-attachment:scroll;
+  }
+}
+h1{
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 5px;
+  font-size: 17px;
+  color: black;
+
+}
+.row h2{
+  position: relative;
+  left:15%;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    bottom: 90%;
+    font-size: 17px;
+}

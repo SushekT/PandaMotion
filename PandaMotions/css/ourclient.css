@@ -1,0 +1,46 @@
+.val-cus h2{
+	color: black;
+	 font-family: 'Montserrat', sans-serif;
+	padding-left: 40%;
+}
+
+.wrapper{
+	width:1050px;
+	margin: 0 auto; 
+}
+.gallery-box{
+	overflow: hidden;
+	padding:80px 0px ;
+}
+.image-single {
+	width: 100px;
+	height: 100px;
+	margin: 10px 15px;
+	float: left;
+	position: relative;
+}
+
+.image-single img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	transition: all 100ms ease-in-out;
+	-webkit-transition: all 100ms ease-in-out;
+	-o-transition:all 100ms ease-in-out;
+}
+
+.image-single:hover{
+	z-index: 1000;
+}
+
+.image-single img:hover {
+	width: 110%;
+	height: 110%;
+	position: absolute;
+	top:-5%;
+	left: -5%;
+}

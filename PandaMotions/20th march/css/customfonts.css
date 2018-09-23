@@ -1,0 +1,17 @@
+@import "https://fonts.googleapis.com/css?family=Monoton";
+@import "https://fonts.googleapis.com/css?family=Yellowtail";
+
+h2{
+	font-family: 'Monoton' !important;
+	font-size: 22px;
+	color:#FF0000
+}
+
+#myheading{
+	font-family: 'Yellowtail' !important;
+	font-size:30px;
+	font-weight:900;
+	color:#0000ff;
+}
+
+Aldrich

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>My Responsive Site</title>
+	<meta charset="utf-8" />
+	<meta name="author" content="mysite.com" />
+	<meta name="keyword" content="mysite.com, PHP, HTML, CSS, JavaScript" />
+	<meta name="description" content="Latest tutorial for PHP, HTML, CSS, JavaScript" />
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+	<link rel="stylesheet" type="text/css" href="css/mycustom.css"/>
+	<link rel="stylesheet" type="text/css" href="css/jquery.dataTables.min.css">
+
+
+
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xl-12">
+			<img src="images/banner1.jpg" class="img-fluid" alt="Banner" title="Banner" />
+			</div>
+		</div>
+	</div><!-- container fluid close-->
+
+<div class="container">
+	<div class="row">
+		<div class="col-xl-12">
+			Home | About | Contact
+		</div>
+	</div>
+
+	<div class="row">
+			<div class="col-xl-6 col-md-12 col-sm-12">
+
+				<div id="slider" class="carousel slide" data-ride="carousel">
+
+
+
+					 <ul class="carousel-indicators">
+   						 <li data-target="#slider" data-slide-to="0" class="active"></li>
+    					<li data-target="#slider" data-slide-to="1"></li>
+   						<li data-target="#slider" data-slide-to="2"></li>
+  					</ul>
+  				<div class="carousel-inner">
+    			<div class="carousel-item active">
+     			<img class="img-fluid" src="images/slider1.jpg" alt="First slide">
+     			<div class="carousel-caption d-none d-md-block">
+    <h5>Budha	</h5>
+    <p>..</p>
+  </div>
+    		</div>
+   			<div class="carousel-item">
+      			<img class="img-fluid" src="images/slider2.jpg" alt="Second slide">
+      			<div class="carousel-caption d-none d-md-block">
+    <h5>MT Everest </h5>
+    <p>...</p>
+  </div>
+    		</div>
+
+   			 <div class="carousel-item">
+      		<img class="img-fluid" src="images/slider3.jpg" alt="Third slide">
+      		<div class="carousel-caption d-none d-md-block">
+    <h5>swyambhu</h5>
+    <p>...</p>
+  </div>
+    		</div>
+    		 <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#slider" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  </div>
+</div>
+			</div>
+			<div class="col-xl-6 col-md-12 col-sm-12">
+				Heading
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xl-3 col-sm-6 col-md-6">
+				<img src="images/col.jpg" alt="column1" title="column 1" class="img-fluid rounded-circle img-thumbnail" />
+				<h3>Column Heading</h3>
+				<p>The demo content will be added here</p>
+			</div>
+			<div class="col-xl-3 col-sm-6 col-md-6">
+				Column 2
+			</div>
+			<div class="col-xl-6 col-sm-12 col-md-12">
+				<table class="table table-hover table-striped" id="myTable">
+
+  <thead>
+    <tr>
+      <th scope="col">sn</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+   <tfoot>
+    <tr>
+      <th scope="col">sN</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </tfoot>
+
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+			</div>
+		</div>
+</div><!-- container close-->
+
+	<div class="container-fluid myfooter">
+		<div class="row">
+			<div class="col-xl-12">
+				<p>&copy; 2018; yoursite.com, All right Reserved.</p>
+			</div>
+			</div>
+		</div>
+	</div><!-- container fluid close-->
+
+
+
+
+
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+
+	<script type="text/javascript" src="jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+
+
+
+
+
+	<script>
+		$(document).ready( function () {
+    $('#myTable').DataTable();
+} );
+	</script>
+
+
+
+</body>
+</html>

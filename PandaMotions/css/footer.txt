@@ -1,0 +1,28 @@
+.footer {
+    clear: both;
+    width: 100%;
+    background-color: #323232;
+}
+
+.footer_container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: red;
+}
+
+.footer .findus {
+    float: left;
+    width: 33,33333%;
+}
+
+.footer .designers {
+    float: left;
+    width: 33,33333%;
+    background-color: red;
+}
+
+
+.footer .inspirations {
+    float: left;
+    width: 33,33333%;
+}
